@@ -9,25 +9,26 @@
 :root {
     --primary-color: none;
     /* --overlay-color: rgba(255, 255, 255, 0.9); */
-    --overlay-color: #8ecae6 ;
+    --overlay-color: #8ecae6;
     --menu-speed: 0.75s;
-    --light-text-color: #219ebc ;
-    --black-color: #023047 ;
-    --white-color: #8ecae6 ;
-    --hero-color: black ;
+    --light-text-color: #219ebc;
+    --black-color: #023047;
+    --white-color: #8ecae6;
+    --hero-color: black;
     --color1: #8ecae6;
     --color2: #219ebc;
     --color3: #023047;
     --color4: #ffb703;
     --color5: white;
 }
-.work-hero-card{
+
+.work-hero-card {
     display: block;
-    margin:0 auto;
-    width:80%;
+    margin: 0 auto;
+    width: 80%;
     background: var(--color1);
     align-items: center;
-    padding:0;
+    padding: 0;
     /* border-radius: 10px; */
     padding-bottom: 15px;
     /* border:1px solid #44444450; */
@@ -36,35 +37,42 @@
     transition: all 1s;
     height: 100%;
 }
-#work-text{
+
+#work-text {
     text-align: center;
     font-size: 1.5em;
 }
-.work-hero-card h1{
+
+.work-hero-card h1 {
     padding-top: 20px;
     text-align: center;
     font-size: 0.8em;
     font-weight: bold;
 }
-.work-hero-card:hover{
-    width:85%;
-    box-shadow: 0px 0px 20px var(--color2); ;
-    animation:zoom 1s;
+
+.work-hero-card:hover {
+    width: 85%;
+    box-shadow: 0px 0px 20px var(--color2);
+    ;
+    animation: zoom 1s;
     /* filter: none; */
 }
-.work-card-hero-img{
-    width:100%;
+
+.work-card-hero-img {
+    width: 100%;
     display: block;
     border-bottom: none;
-    margin:0 auto;
-    left:0;
+    margin: 0 auto;
+    left: 0;
     right: 0;
 }
-.work-double-row{
-    padding-left:120px;
+
+.work-double-row {
+    padding-left: 120px;
     padding-right: 120px;
     margin-top: 80px;
 }
+
 .project-star {
     position: absolute;
     background: var(--color4);
@@ -98,7 +106,8 @@
     width: 90%;
     transition: width 1s;
 }
-.work-hero:hover{
+
+.work-hero:hover {
     width: 95%;
 }
 
@@ -155,7 +164,8 @@
 }
 
 #partner-logo:hover {
-    box-shadow: 0px 0px 10px var(--color2); ;
+    box-shadow: 0px 0px 10px var(--color2);
+    ;
 }
 
 .work-read {
@@ -165,8 +175,8 @@
 
 .work-read:hover {
     background: var(--color2);
-    color: var(--color5)  !important;
-    border: 2px solid var(--color2)  !important;
+    color: var(--color5) !important;
+    border: 2px solid var(--color2) !important;
 }
 
 body {
@@ -194,7 +204,8 @@ body {
 }
 
 .comingsoon a {
-    color: var(--color2); ;
+    color: var(--color2);
+    ;
     font-weight: bold;
     text-decoration: none;
     transition: font-size 1s;
@@ -216,7 +227,8 @@ body {
 }
 
 li span a {
-    color: var(--color2); ;
+    color: var(--color2);
+    ;
     text-decoration: none;
 
 }
@@ -527,7 +539,7 @@ label {
     transition: all 1s;
 }
 
-.learn-btn:hover{
+.learn-btn:hover {
     background-color: var(--color4);
     color: var(--color5)
 }
@@ -707,18 +719,21 @@ li span:hover:after {
     #hero-right {
         display: none;
     }
-    .work-double-row{
+
+    .work-double-row {
         padding-left: 30px;
         padding-right: 30px;
     }
+
     #index-body {
-/*         background: url('assets/img/mobile.png'); */
+        /*         background: url('assets/img/mobile.png'); */
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: 100vh;
         width: 100vw;
     }
+
     /* .work-double-row{
         padding-left: 50px;
         padding-right: 50px;
@@ -738,20 +753,24 @@ li span:hover:after {
         height: 0;
         display: none;
     }
-    .work-double-row{
-        padding:30px 20px;
+
+    .work-double-row {
+        padding: 30px 20px;
         padding-bottom: 0;
     }
-    .work-hero-card{
-        width:100%;
+
+    .work-hero-card {
+        width: 100%;
         margin-bottom: 25px;
     }
-    #row-3{
+
+    #row-3 {
         margin-top: 0px;
-        padding:0 20px;
+        padding: 0 20px;
     }
+
     #index-body {
-/*         background: url('assets/img/mobile.png'); */
+        /*         background: url('assets/img/mobile.png'); */
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -884,15 +903,31 @@ li span:hover:after {
 
 }
 
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
     text-decoration: none;
     color: inherit;
 }
 
-#main{
+#main {
     color: var(--color3)
 }
 
-.hero-subtitle{
+.hero-subtitle {
     color: black
+}
+
+.changeOnHover:hover,
+.changeOnHover:focus {
+    border: none;
+    color: var(--color5);
+    background-color: var(--color4);
+}
+
+.changeOnHoverInverse:hover,
+.changeOnHoverInverse:focus {
+    border-color: var(--color4);
+    color: var(--color4);
 }
