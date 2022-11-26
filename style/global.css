@@ -916,7 +916,9 @@ a:active {
 }
 
 .changeOnHover:hover,
-.changeOnHover:focus {
+.changeOnHover:focus,
+.tech-stack:hover,
+.tech-stack:focus {
     border: none;
     color: var(--color5);
     background-color: var(--color4);
