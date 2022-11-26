@@ -1,34 +1,100 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<html>
+
 <head>
-  <base target="_blank">
-  <meta charset="UTF-8" />
-  <title>Abdessalam Ait Haqi's Portfolio</title>
-  <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
-  <script type="text/javascript" src="js/jquery.particleground.js"></script>
-  <script type="text/javascript" src="js/demo.js"></script>
+    <base target="_blank">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+    
+    <title>Abdessalam Ait Haqi's Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/img/coding.png">
+
+    <!-- Style sheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Scripts -->
+    <script src="assets/js/app.js"></script>
+
 </head>
 
-<body>
+<body id="index-body" style="overflow: hidden;">
+    <div>
+        <nav class="nav-desk">
+                <div class="nav-logo">
+                    <a href="index.html"><img id="logo" src="assets/img/coding.png"></a>
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li><span><a href="./about.html">About</a></span></li>
+                        <li><span><a href="./src/skills.html">Skills</a></span></li>
+                        <li><span><a href="./src/projects.html">Projects</a></span></li>
+                        <li><span><a href="./src/contact.html">Contact</a></span></li>
+                        <li><span><a href="./AbdessalamAitHaqiCV.pdf">Resume</a></span></li>
+                    </ul>
+                </div>
+        </nav>
+        <div class="animated fadeIn row" style="width:100vw;animation-duration: 1.5s;">
+            <div class="col-md-6" id="left-hero">
+                <h1 class="hero-tag"><span class="typer" id="main" data-words="Hi, I'm Abdel." data-delay="100"
+                        data-deleteDelay="1000" data-loop="1"></span>
+                    &nbsp;</h1>
+                <p class="hero-des"> A computer science student with
+                    a love of <b>learning</b> and an
+                    <b>extroverted</b> personality. Skilled
+                    at <b>problem-solving</b>. <b>Team player</b>
+                    and an avid <b>multitasker</b>. Always
+                    <b>punctual</b> and <b>reliable</b>.  Always 
+                    looking for a challenge and interesting 
+                    opportunities to gain knowledge and experience 
+                    in the computer science field.
+                </p>
+                <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+                <button class="animated bounce delay-4s learn-btn">
+                    <a href="./src/about.html">Learn More</a>
+                </button>
+                <a target="_blank" href="mailto:abdessalam.aithaqi@gmail.com"><button class="contact-btn">
+                        Contact Me
+                    </button></a>
+            </div>
 
-<div id="particles">
-  <!-- Intro inspired by: https://github.com/itsron143/ParticleGround-Portfolio -->
-  <div id="intro">
-      <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 10;">Abdessalam Ait Haqi&nbsp</h2>
-        <hr style="width: 50%; background-color: #E83951; border-color: #E83951;">
-    <a href="https://www.linkedin.com/in/abdessalam-ait-haqi-45752723a/" style="color: white;"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a>
-    &nbsp
-    <a href="./AbdessalamAitHaqiCV.pdf" style="color: white;"><img src="./assets/cv.png" height="25" width="30"></a>
-    &nbsp
-    <a href="https://github.com/AbdessalamAithaqi" style="color: white;"><i class="fab fa-github" style="font-size: 2em;"></i></a>
-  </div>
-</div>
-<footer>
-  <a href="https://www.flaticon.com/free-icons/cv" title="cv icons">Cv icons created by Freepik - Flaticon</a>
-</footer>
+            <div class="col-md-6" id="hero-right">
+                <img id="hero-img" src="./assets/img/backgroug.png">
+            </div>
+
+        </div>
+    </div>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><span><a href="./about.html">About</a></span></li>
+                        <li><span><a href="./src/skills.html">Skills</a></span></li>
+                        <li><span><a href="./src/projects.html">Projects</a></span></li>
+                        <li><span><a href="./src/contact.html">Contact</a></span></li>
+                        <li><span><a href="./AbdessalamAitHaqiCV.pdf">Resume</a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-</html>
 
+<footer class="footer-full fadeIn delay-2s">
+    <div class="legal">
+        <div class="social-icons">
+            <a target="_blank" href="mailto:abdessalam.aithaqi@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a target="_blank" href="https://github.com/AbdessalamAithaqi"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abdessalam-ait-haqi-45752723a/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+
+</html>
